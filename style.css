@@ -1,0 +1,116 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+#me{
+    height: 40px;
+    border-radius: 50px;
+  border: 3px solid rgb(0, 140, 255);
+}
+
+.nav{ 
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0);
+    width: 100%; 
+   
+}
+.list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+ 
+.list2 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.logo{
+    width: 30%; 
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.list{
+    width: 30%;
+    
+}
+.list2{
+    width: 30%;  
+}
+.nav.list.list2{
+    flex-grow :1 ;
+
+}
+.nav .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 70%;
+    margin: auto;
+    
+
+}
+.logo input {
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0); 
+    border: 1px solid black; 
+    border-radius: 15px;
+    height: 20px;
+    width: 150px;
+}
+button{
+    background-color:rgb(27, 27, 27);
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.78);
+    width: 20%;
+    height: 100px;
+    gap: 20px;
+    border-radius: 30px ;
+    padding: 10px;
+   
+}
+.info input{
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0); 
+    border: 1px solid black; 
+    border-radius: 15px;
+    height: 20px;
+    width: 400px; 
+   
+   
+}
+.info_b{
+    background-color:rgba(109, 109, 109, 0.78) ;
+    height:1000px ;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%; 
+    margin: auto;
+}
+body{
+    background-color:rgba(32, 32, 32, 0.78) ;
+    height:6000px ;
+    
+}
+
